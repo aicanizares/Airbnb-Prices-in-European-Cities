@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (df_test)' inline='true' name='federated.1h92n2c1wivgym1dgnvjo1irwbpn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='df_test' name='excel-direct.18wgs2i0ia4v991dfbkii02brbex'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/aican/2025-Ironhack/GitHub/Unit8-2025-CW-23/Airbnb-Prices-in-European-Cities/df_test.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.18wgs2i0ia4v991dfbkii02brbex' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='realSum' ordinal='1' />
+            <column datatype='string' name='room_type' ordinal='2' />
+            <column datatype='integer' name='room_shared' ordinal='3' />
+            <column datatype='integer' name='room_private' ordinal='4' />
+            <column datatype='integer' name='person_capacity' ordinal='5' />
+            <column datatype='integer' name='host_is_superhost' ordinal='6' />
+            <column datatype='integer' name='multi' ordinal='7' />
+            <column datatype='integer' name='biz' ordinal='8' />
+            <column datatype='integer' name='cleanliness_rating' ordinal='9' />
+            <column datatype='integer' name='guest_satisfaction_overall' ordinal='10' />
+            <column datatype='integer' name='bedrooms' ordinal='11' />
+            <column datatype='real' name='dist' ordinal='12' />
+            <column datatype='real' name='metro_dist' ordinal='13' />
+            <column datatype='real' name='attr_index' ordinal='14' />
+            <column datatype='real' name='attr_index_norm' ordinal='15' />
+            <column datatype='real' name='rest_index' ordinal='16' />
+            <column datatype='real' name='rest_index_norm' ordinal='17' />
+            <column datatype='real' name='lng' ordinal='18' />
+            <column datatype='real' name='lat' ordinal='19' />
+            <column datatype='integer' name='weekends' ordinal='20' />
+            <column datatype='string' name='city' ordinal='21' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V10001:no:A1:V10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>realSum</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[realSum]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>realSum</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[room_type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>room_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RDE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_shared</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[room_shared]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>room_shared</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_private</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[room_private]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>room_private</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>person_capacity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[person_capacity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>person_capacity</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_is_superhost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[host_is_superhost]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>host_is_superhost</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>multi</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[multi]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>multi</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biz</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[biz]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>biz</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cleanliness_rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cleanliness_rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cleanliness_rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guest_satisfaction_overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guest_satisfaction_overall]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>guest_satisfaction_overall</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bedrooms]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bedrooms</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dist]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dist</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metro_dist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[metro_dist]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>metro_dist</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attr_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[attr_index]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>attr_index</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attr_index_norm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[attr_index_norm]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>attr_index_norm</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rest_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rest_index]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>rest_index</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rest_index_norm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rest_index_norm]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>rest_index_norm</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lng]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>lng</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekends</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weekends]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>weekends</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RDE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]' role='measure' type='quantitative' />
+      <column caption='Attr Index' datatype='real' name='[attr_index]' role='measure' type='quantitative' />
+      <column caption='Attr Index Norm' datatype='real' name='[attr_index_norm]' role='measure' type='quantitative' />
+      <column caption='Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='quantitative' />
+      <column caption='Biz' datatype='integer' name='[biz]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Cleanliness Rating' datatype='integer' name='[cleanliness_rating]' role='measure' type='quantitative' />
+      <column caption='Dist' datatype='real' name='[dist]' role='measure' type='quantitative' />
+      <column caption='Guest Satisfaction Overall' datatype='integer' name='[guest_satisfaction_overall]' role='measure' type='quantitative' />
+      <column caption='Host Is Superhost' datatype='integer' name='[host_is_superhost]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lng' datatype='real' name='[lng]' role='measure' type='quantitative' />
+      <column caption='Metro Dist' datatype='real' name='[metro_dist]' role='measure' type='quantitative' />
+      <column caption='Multi' datatype='integer' name='[multi]' role='measure' type='quantitative' />
+      <column caption='Person Capacity' datatype='integer' name='[person_capacity]' role='measure' type='quantitative' />
+      <column caption='Real Sum' datatype='real' name='[realSum]' role='measure' type='quantitative' />
+      <column caption='Rest Index' datatype='real' name='[rest_index]' role='measure' type='quantitative' />
+      <column caption='Rest Index Norm' datatype='real' name='[rest_index_norm]' role='measure' type='quantitative' />
+      <column caption='Room Private' datatype='integer' name='[room_private]' role='measure' type='quantitative' />
+      <column caption='Room Shared' datatype='integer' name='[room_shared]' role='measure' type='quantitative' />
+      <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+      <column caption='Weekends' datatype='integer' name='[weekends]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/aican/AppData/Local/Temp/TableauTemp/#TableauTemp_1k279by12sslbq1bghpqu16b2qud.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/06/2025 01:35:53 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>realSum</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[realSum]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>realSum</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8640</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>room_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[room_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>room_type</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>room_shared</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[room_shared]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>room_shared</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>room_private</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[room_private]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>room_private</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>person_capacity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[person_capacity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>person_capacity</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>host_is_superhost</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[host_is_superhost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>host_is_superhost</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>multi</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[multi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>multi</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biz</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[biz]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biz</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cleanliness_rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cleanliness_rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cleanliness_rating</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>guest_satisfaction_overall</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[guest_satisfaction_overall]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>guest_satisfaction_overall</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bedrooms</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[bedrooms]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bedrooms</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dist</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[dist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dist</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>metro_dist</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[metro_dist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>metro_dist</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>attr_index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[attr_index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>attr_index</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>attr_index_norm</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[attr_index_norm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>attr_index_norm</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rest_index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rest_index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rest_index</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rest_index_norm</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rest_index_norm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rest_index_norm</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51600</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lng</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[lng]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lng</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[lat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lat</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13263</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>weekends</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[weekends]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>weekends</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_38EA0646B3D04F678178F7DEFCBB1582]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_38EA0646B3D04F678178F7DEFCBB1582'>
+            <properties context=''>
+              <relation connection='excel-direct.18wgs2i0ia4v991dfbkii02brbex' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='realSum' ordinal='1' />
+                  <column datatype='string' name='room_type' ordinal='2' />
+                  <column datatype='integer' name='room_shared' ordinal='3' />
+                  <column datatype='integer' name='room_private' ordinal='4' />
+                  <column datatype='integer' name='person_capacity' ordinal='5' />
+                  <column datatype='integer' name='host_is_superhost' ordinal='6' />
+                  <column datatype='integer' name='multi' ordinal='7' />
+                  <column datatype='integer' name='biz' ordinal='8' />
+                  <column datatype='integer' name='cleanliness_rating' ordinal='9' />
+                  <column datatype='integer' name='guest_satisfaction_overall' ordinal='10' />
+                  <column datatype='integer' name='bedrooms' ordinal='11' />
+                  <column datatype='real' name='dist' ordinal='12' />
+                  <column datatype='real' name='metro_dist' ordinal='13' />
+                  <column datatype='real' name='attr_index' ordinal='14' />
+                  <column datatype='real' name='attr_index_norm' ordinal='15' />
+                  <column datatype='real' name='rest_index' ordinal='16' />
+                  <column datatype='real' name='rest_index_norm' ordinal='17' />
+                  <column datatype='real' name='lng' ordinal='18' />
+                  <column datatype='real' name='lat' ordinal='19' />
+                  <column datatype='integer' name='weekends' ordinal='20' />
+                  <column datatype='string' name='city' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (df_test)' name='federated.1h92n2c1wivgym1dgnvjo1irwbpn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1h92n2c1wivgym1dgnvjo1irwbpn'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column caption='Real Sum' datatype='real' name='[realSum]' role='measure' type='quantitative' />
+            <column-instance column='[realSum]' derivation='Sum' name='[sum:realSum:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.1h92n2c1wivgym1dgnvjo1irwbpn].[sum:realSum:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1h92n2c1wivgym1dgnvjo1irwbpn].[sum:realSum:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1h92n2c1wivgym1dgnvjo1irwbpn].[sum:realSum:qk]</rows>
+        <cols>[federated.1h92n2c1wivgym1dgnvjo1irwbpn].[none:city:nk]</cols>
+      </table>
+      <simple-id uuid='{701B25FA-6233-4C99-9C28-B9E07D55B4DF}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1h92n2c1wivgym1dgnvjo1irwbpn].[none:city:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0EA17A38-8406-419C-B659-AE16E6A2B4C5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
